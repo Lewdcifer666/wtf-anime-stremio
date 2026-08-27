@@ -338,9 +338,20 @@ check("AQ1", "every stored match_score re-derives exactly from DNA",
 check("AQ2", "every item has a complete 42-value DNA vector",
   sourceItems.every(i => registry.every(d => Number.isInteger(i.dna[d]))));
 check("AR1", "every item cites real URLs", sourceItems.every(i => urlsIn(i.source).length > 0));
-check("AR2", "every item cites THREE OR MORE sources",
-  sourceItems.every(i => urlsIn(i.source).length >= 3),
-  sourceItems.filter(i => urlsIn(i.source).length < 3).map(i => i.title).join(", "));
+// A repeated citation is not a second source. Count DOCUMENTS, not URLs:
+// counting URLs is exactly how two items shipped citing one page twice while
+// the report claimed three sources.
+const distinctIn = v => [...new Set(urlsIn(v).map(h => { const u = new URL(h); u.hash = ""; return u.href; }))];
+check("AR2", "every item cites THREE OR MORE DISTINCT sources",
+  sourceItems.every(i => distinctIn(i.source).length >= 3),
+  sourceItems.filter(i => distinctIn(i.source).length < 3)
+    .map(i => i.title + " (" + distinctIn(i.source).length + " distinct)").join(", "));
+check("AR2b", "no item repeats a normalized source URL",
+  sourceItems.every(i => urlsIn(i.source).length === distinctIn(i.source).length),
+  sourceItems.filter(i => urlsIn(i.source).length !== distinctIn(i.source).length)
+    .map(i => i.title + ": " + urlsIn(i.source).length + " raw vs " + distinctIn(i.source).length + " distinct").join(", "));
+check("AR2c", "every item cites at least one source beyond bare identity metadata",
+  sourceItems.every(i => distinctIn(i.source).some(u => !u.includes("cinemeta"))));
 check("AR3", "no source cites a trailer host", sourceItems.every(i => !/youtube\.com|youtu\.be|vimeo\.com/i.test(i.source)));
 if (fs.existsSync(path.join(root, "site", "catalog"))) {
   const p24 = ["movie","series"].map(t => path.join(root, "site", "catalog", t, `past-24h-${t}.json`))

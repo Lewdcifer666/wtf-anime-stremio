@@ -142,7 +142,13 @@ PHASE B - RESEARCH (time-boxed)
     source = the ACTUAL MATERIAL your research rested on, as URLs.
 
     validate.mjs rejects any item whose source has no usable http(s) URL.
-    Aim for THREE OR MORE: identity/basic metadata, a substantive
+    A REPEATED CITATION IS NOT A SECOND SOURCE. Any requested count means
+    DISTINCT documents. Citing the same URL twice never satisfies it, and
+    validate.mjs rejects it outright. Watch for lookups that silently
+    redirect: an episode-list search that lands back on the main article has
+    given you ONE source, not two - that exact failure shipped once already.
+
+    Aim for THREE OR MORE DISTINCT: identity/basic metadata, a substantive
     plot/episode/structure source, and a substantive review or reference
     supporting tone, progression, action or art. Anime-specific references
     such as AniList, MyAnimeList, Kitsu, Anime News Network or reputable

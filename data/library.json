@@ -83,7 +83,7 @@
       "added_at": "2026-08-27T15:00:00Z",
       "added_by": "bootstrap",
       "discovery_run_id": null,
-      "source": "https://v3-cinemeta.strem.io/meta/series/tt6660498.json ; https://en.wikipedia.org/wiki/Devilman_Crybaby ; https://en.wikipedia.org/wiki/Devilman_Crybaby",
+      "source": "https://v3-cinemeta.strem.io/meta/series/tt6660498.json ; https://en.wikipedia.org/wiki/Devilman_Crybaby ; https://www.rottentomatoes.com/tv/devilman_crybaby",
       "dna": {
         "mystery": 5,
         "psychological_strategy": 3,
@@ -1264,7 +1264,7 @@
       "added_at": "2026-08-27T15:00:00Z",
       "added_by": "bootstrap",
       "discovery_run_id": null,
-      "source": "https://v3-cinemeta.strem.io/meta/series/tt0500092.json ; https://en.wikipedia.org/wiki/Serial_Experiments_Lain ; https://en.wikipedia.org/wiki/Serial_Experiments_Lain",
+      "source": "https://v3-cinemeta.strem.io/meta/series/tt0500092.json ; https://en.wikipedia.org/wiki/Serial_Experiments_Lain ; https://www.rottentomatoes.com/tv/serial_experiments_lain",
       "dna": {
         "mystery": 10,
         "psychological_strategy": 4,
