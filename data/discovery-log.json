@@ -1,4 +1,18 @@
 {
   "schema_version": 1,
-  "runs": []
+  "runs": [
+    {
+      "run_id": "2026-08-30-a1",
+      "timestamp": "2026-08-30T06:02:27Z",
+      "searched": 2,
+      "accepted": 1,
+      "rejected": 1,
+      "duplicates": 0,
+      "unresolved_identity": 0,
+      "accepted_items": [
+        {"imdb_id":"tt32612521","type":"series","title":"Gachiakuta","match_score":84}
+      ],
+      "rejection_summary": "One additional horror-mystery candidate was researched but withheld because the run did not complete a sufficiently comprehensive, source-supported 42-dimension DNA fingerprint within the protected finalization window. Gachiakuta cleared the Anime profile's 58-point minimum with a deterministic DNA-match score of 84, had a verified IMDb identity, complete DNA, distinct provenance URLs, and no current public-identity duplicate. Personalization remained off because data/personalized-scores.json is absent."
+    }
+  ]
 }
