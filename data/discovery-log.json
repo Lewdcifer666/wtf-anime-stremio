@@ -10,9 +10,27 @@
       "duplicates": 0,
       "unresolved_identity": 0,
       "accepted_items": [
-        {"imdb_id":"tt32612521","type":"series","title":"Gachiakuta","match_score":84}
+        {
+          "imdb_id": "tt32612521",
+          "type": "series",
+          "title": "Gachiakuta",
+          "match_score": 84
+        }
       ],
       "rejection_summary": "One additional horror-mystery candidate was researched but withheld because the run did not complete a sufficiently comprehensive, source-supported 42-dimension DNA fingerprint within the protected finalization window. Gachiakuta cleared the Anime profile's 58-point minimum with a deterministic DNA-match score of 84, had a verified IMDb identity, complete DNA, distinct provenance URLs, and no current public-identity duplicate. Personalization remained off because data/personalized-scores.json is absent."
+    },
+    {
+      "run_id": "2026-08-30-n1",
+      "timestamp": "2026-08-30T07:42:46Z",
+      "searched": 3,
+      "accepted": 2,
+      "rejected": 1,
+      "duplicates": 0,
+      "accepted_items": [
+        "tt13911284",
+        "tt30217403"
+      ],
+      "rejection_summary": "Researched three candidates against the static baseline profile. Two accepted: Hell's Paradise (77), a gore-and-creature survival piece with a stated Tao ability system, and Dandadan (61), carried by weirdness, Science Saru's art and transgressive comedy rather than by depth of power mechanics. Vinland Saga was rejected outright: superbly made and genuinely brutal, but grounded historical drama with no supernatural element, no ability system and no strange world, so it does not clear the DNA Match floor at all. That is the profile working as designed, not a judgement on the show. Personalization is dormant: no personalized-scores.json exists and none was created. Zero duplicates against the identity set."
     }
   ]
 }
