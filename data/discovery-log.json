@@ -31,6 +31,24 @@
         "tt30217403"
       ],
       "rejection_summary": "Researched three candidates against the static baseline profile. Two accepted: Hell's Paradise (77), a gore-and-creature survival piece with a stated Tao ability system, and Dandadan (61), carried by weirdness, Science Saru's art and transgressive comedy rather than by depth of power mechanics. Vinland Saga was rejected outright: superbly made and genuinely brutal, but grounded historical drama with no supernatural element, no ability system and no strange world, so it does not clear the DNA Match floor at all. That is the profile working as designed, not a judgement on the show. Personalization is dormant: no personalized-scores.json exists and none was created. Zero duplicates against the identity set."
+    },
+    {
+      "run_id": "2026-08-31-a1",
+      "timestamp": "2026-08-31T06:18:30Z",
+      "searched": 1,
+      "accepted": 1,
+      "rejected": 0,
+      "duplicates": 0,
+      "unresolved_identity": 0,
+      "accepted_items": [
+        {
+          "imdb_id": "tt33028568",
+          "type": "series",
+          "title": "The Summer Hikaru Died",
+          "match_score": 65
+        }
+      ],
+      "rejection_summary": "One candidate was researched to completion and accepted. The Summer Hikaru Died cleared the Anime profile's 58-point minimum with a deterministic DNA-match score of 65, using a complete 42-dimension descriptive DNA vector, verified IMDb identity, distinct provenance URLs, and a fresh duplicate check against current public state. Personalization remained off because data/personalized-scores.json is absent."
     }
   ]
 }
