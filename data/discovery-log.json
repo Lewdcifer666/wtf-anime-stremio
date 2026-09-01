@@ -49,6 +49,24 @@
         }
       ],
       "rejection_summary": "One candidate was researched to completion and accepted. The Summer Hikaru Died cleared the Anime profile's 58-point minimum with a deterministic DNA-match score of 65, using a complete 42-dimension descriptive DNA vector, verified IMDb identity, distinct provenance URLs, and a fresh duplicate check against current public state. Personalization remained off because data/personalized-scores.json is absent."
+    },
+    {
+      "run_id": "2026-09-01-a1",
+      "timestamp": "2026-09-01T06:04:36Z",
+      "searched": 1,
+      "accepted": 1,
+      "rejected": 0,
+      "duplicates": 0,
+      "unresolved_identity": 0,
+      "accepted_items": [
+        {
+          "imdb_id": "tt13616990",
+          "type": "series",
+          "title": "Chainsaw Man",
+          "match_score": 81
+        }
+      ],
+      "rejection_summary": "One candidate was researched to completion and accepted. Chainsaw Man cleared the Anime profile's 58-point minimum with a deterministic DNA-match score of 81, using a complete 42-dimension descriptive DNA vector, verified IMDb identity, four distinct provenance URLs, and a fresh duplicate check against current public state. Personalization remained off because data/personalized-scores.json is absent."
     }
   ]
 }
