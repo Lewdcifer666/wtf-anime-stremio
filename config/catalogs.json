@@ -9,6 +9,7 @@
   "site": {
     "title": "WTF Anime Discovery",
     "emoji": "🧠",
+    "genre": "Anime",
     "blurb": "Automated Stremio catalogs for anime that out-thinks you: psychological strategy and cat-and-mouse, mysteries that keep paying out, deep power systems and real progression, strange worlds - and gore, horror and brutality as features, not warnings."
   },
   "catalogs": [
