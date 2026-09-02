@@ -9,14 +9,7 @@
       "rejected": 1,
       "duplicates": 0,
       "unresolved_identity": 0,
-      "accepted_items": [
-        {
-          "imdb_id": "tt32612521",
-          "type": "series",
-          "title": "Gachiakuta",
-          "match_score": 84
-        }
-      ],
+      "accepted_items": [{"imdb_id":"tt32612521","type":"series","title":"Gachiakuta","match_score":84}],
       "rejection_summary": "One additional horror-mystery candidate was researched but withheld because the run did not complete a sufficiently comprehensive, source-supported 42-dimension DNA fingerprint within the protected finalization window. Gachiakuta cleared the Anime profile's 58-point minimum with a deterministic DNA-match score of 84, had a verified IMDb identity, complete DNA, distinct provenance URLs, and no current public-identity duplicate. Personalization remained off because data/personalized-scores.json is absent."
     },
     {
@@ -26,10 +19,7 @@
       "accepted": 2,
       "rejected": 1,
       "duplicates": 0,
-      "accepted_items": [
-        "tt13911284",
-        "tt30217403"
-      ],
+      "accepted_items": ["tt13911284","tt30217403"],
       "rejection_summary": "Researched three candidates against the static baseline profile. Two accepted: Hell's Paradise (77), a gore-and-creature survival piece with a stated Tao ability system, and Dandadan (61), carried by weirdness, Science Saru's art and transgressive comedy rather than by depth of power mechanics. Vinland Saga was rejected outright: superbly made and genuinely brutal, but grounded historical drama with no supernatural element, no ability system and no strange world, so it does not clear the DNA Match floor at all. That is the profile working as designed, not a judgement on the show. Personalization is dormant: no personalized-scores.json exists and none was created. Zero duplicates against the identity set."
     },
     {
@@ -40,14 +30,7 @@
       "rejected": 0,
       "duplicates": 0,
       "unresolved_identity": 0,
-      "accepted_items": [
-        {
-          "imdb_id": "tt33028568",
-          "type": "series",
-          "title": "The Summer Hikaru Died",
-          "match_score": 65
-        }
-      ],
+      "accepted_items": [{"imdb_id":"tt33028568","type":"series","title":"The Summer Hikaru Died","match_score":65}],
       "rejection_summary": "One candidate was researched to completion and accepted. The Summer Hikaru Died cleared the Anime profile's 58-point minimum with a deterministic DNA-match score of 65, using a complete 42-dimension descriptive DNA vector, verified IMDb identity, distinct provenance URLs, and a fresh duplicate check against current public state. Personalization remained off because data/personalized-scores.json is absent."
     },
     {
@@ -58,15 +41,19 @@
       "rejected": 0,
       "duplicates": 0,
       "unresolved_identity": 0,
-      "accepted_items": [
-        {
-          "imdb_id": "tt13616990",
-          "type": "series",
-          "title": "Chainsaw Man",
-          "match_score": 81
-        }
-      ],
+      "accepted_items": [{"imdb_id":"tt13616990","type":"series","title":"Chainsaw Man","match_score":81}],
       "rejection_summary": "One candidate was researched to completion and accepted. Chainsaw Man cleared the Anime profile's 58-point minimum with a deterministic DNA-match score of 81, using a complete 42-dimension descriptive DNA vector, verified IMDb identity, four distinct provenance URLs, and a fresh duplicate check against current public state. Personalization remained off because data/personalized-scores.json is absent."
+    },
+    {
+      "run_id": "2026-09-02-a1",
+      "timestamp": "2026-09-02T06:00:00Z",
+      "searched": 1,
+      "accepted": 1,
+      "rejected": 0,
+      "duplicates": 0,
+      "unresolved_identity": 0,
+      "accepted_items": [{"imdb_id":"tt10905902","type":"series","title":"Uzumaki","match_score":71}],
+      "rejection_summary": "One candidate was researched to completion and accepted. Uzumaki cleared the Anime profile's 58-point minimum with a deterministic DNA-match score of 71, using a complete 42-dimension descriptive DNA vector, verified IMDb identity, four distinct provenance URLs, and the mandatory fresh final duplicate check against library.json and every current discovery file. No duplicate was found. Personalization remained off because data/personalized-scores.json is absent."
     }
   ]
 }
