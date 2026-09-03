@@ -54,6 +54,17 @@
       "unresolved_identity": 0,
       "accepted_items": [{"imdb_id":"tt10905902","type":"series","title":"Uzumaki","match_score":71}],
       "rejection_summary": "One candidate was researched to completion and accepted. Uzumaki cleared the Anime profile's 58-point minimum with a deterministic DNA-match score of 71, using a complete 42-dimension descriptive DNA vector, verified IMDb identity, four distinct provenance URLs, and the mandatory fresh final duplicate check against library.json and every current discovery file. No duplicate was found. Personalization remained off because data/personalized-scores.json is absent."
+    },
+    {
+      "run_id": "2026-09-03-a1",
+      "timestamp": "2026-09-03T06:07:10Z",
+      "searched": 1,
+      "accepted": 1,
+      "rejected": 0,
+      "duplicates": 0,
+      "unresolved_identity": 0,
+      "accepted_items": [{"imdb_id":"tt21844490","type":"series","title":"Dark Gathering","match_score":84}],
+      "rejection_summary": "One candidate was researched to completion and accepted. Dark Gathering cleared the Anime profile's 58-point minimum with a deterministic DNA-match score of 84, using a complete 42-dimension descriptive DNA vector, verified IMDb identity, four distinct provenance URLs, and the mandatory fresh final duplicate check against library.json and every current discovery file. No duplicate was found. Personalization remained off because data/personalized-scores.json is absent."
     }
   ]
 }
