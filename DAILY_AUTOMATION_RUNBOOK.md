@@ -15,7 +15,7 @@ PHASE A — SMALL CURRENT STATE
 1. Fetch data/automation-state.json and config/catalogs.json. Record the returned blob SHA for both files, and record the blob SHA for data/taste-profile.json and scripts/dna-score.mjs when you fetch them; these are the policy-version locks for this run.
 2. Fetch data/taste-profile.json in bounded chunks of about 250 lines until complete. Never use one unbounded large-file request.
 3. Fetch scripts/dna-score.mjs and only small policy files needed. A local executable checkout is optional; absence of one is NOT a failure condition.
-4. Personalization is dormant while automation-state.personalization_enabled=false. Do not access private feedback.
+4. Personalization remains optional and dormant while automation-state says personalization_enabled=false. This is effective use after freshness, validation and applicability checks; file existence alone never enables it. Keep stable baseline DNA scores until a fresh, valid snapshot has been deterministically rebuilt from the complete current feedback state. Never renew an expired snapshot timestamp or reuse old scores to make it active. Do not access private feedback.
 
 PHASE B — RESEARCH
 5. Search efficiently for anime movies/series fitting the current Anime profile. Verify exact IMDb identity and media type before deep research. Kitsu or other secondary ids are inert metadata and never substitute for IMDb.
