@@ -17,6 +17,7 @@
 
 import fs from "node:fs";
 import path from "node:path";
+import os from "node:os";
 import { execFileSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 import { validateProfile, watchedEvidenceIdentities } from "../scripts/validate-profile.mjs";
@@ -271,15 +272,22 @@ check("AJ2", "a reference title is accepted into public data when normally resea
 })(), "an anchor must not be banned merely for being an anchor");
 
 function runValidateWith(items) {
-  const file = path.join(root, "data", "library.json");
-  const original = fs.readFileSync(file);
+  // Validate fixture data independently of the live discoveries. Replacing
+  // only library.json makes an anchor test fail once that title is discovered.
+  const fixture = fs.mkdtempSync(path.join(os.tmpdir(), "wtf-anime-validation-"));
   try {
+    const data = path.join(fixture, "data");
+    fs.mkdirSync(data);
+    fs.copyFileSync(path.join(root, "data", "taste-profile.json"), path.join(data, "taste-profile.json"));
+    const file = path.join(data, "library.json");
     fs.writeFileSync(file, JSON.stringify({ schema_version: 2, updated_at: "2026-08-27T00:00:00Z", items }, null, 2) + "\n");
-    try { return { code: 0, output: execFileSync(process.execPath, ["scripts/validate.mjs"], { cwd: root, encoding: "utf8", stdio: "pipe" }) }; }
-    catch (e) { return { code: e.status, output: `${e.stdout || ""}${e.stderr || ""}` }; }
+    try { return { code: 0, output: execFileSync(process.execPath, [path.join(root, "scripts", "validate.mjs")], { cwd: fixture, encoding: "utf8", stdio: "pipe" }) }; }
+    catch (e) {
+      if (e.status === null) throw e;
+      return { code: e.status, output: `${e.stdout || ""}${e.stderr || ""}` };
+    }
   } finally {
-    fs.writeFileSync(file, original);
-    if (!fs.readFileSync(file).equals(original)) throw new Error("library.json was not restored");
+    fs.rmSync(fixture, { recursive: true, force: true });
   }
 }
 
