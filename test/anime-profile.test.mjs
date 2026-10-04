@@ -343,8 +343,18 @@ const urlsIn = v => String(v).split(/[;,\s]+/).flatMap(t => {
 check("AQ1", "every stored match_score re-derives exactly from DNA",
   sourceItems.every(i => scoreItem(policy, row("dna-match"), i, new Map()).score === i.match_score),
   sourceItems.filter(i => scoreItem(policy, row("dna-match"), i, new Map()).score !== i.match_score).map(i => i.title).join(", "));
-check("AQ2", "every item has a complete 42-value DNA vector",
-  sourceItems.every(i => registry.every(d => Number.isInteger(i.dna[d]))));
+// Preserve the legacy all-known census. Versioned deterministic publications
+// use the profile's declared known/null semantics instead of inheriting an
+// accidental all-known rule from the original bootstrap acceptance census.
+const finalizedRunIds = new Set(fs.readdirSync(path.join(root, "data/run-logs"))
+  .filter(name => name.endsWith(".json"))
+  .map(name => JSON.parse(fs.readFileSync(path.join(root, "data/run-logs", name), "utf8")))
+  .filter(log => log.publication?.schema_version === 1).map(log => log.run_id));
+check("AQ2", "legacy items retain complete 42-value DNA; finalized items obey profile nullability",
+  sourceItems.every(i => finalizedRunIds.has(i.discovery_run_id)
+    ? registry.every(d => i.dna[d] === null || Number.isInteger(i.dna[d]))
+      && scoreItem(policy, row("dna-match"), i, new Map()).score !== null
+    : registry.every(d => Number.isInteger(i.dna[d]))));
 check("AR1", "every item cites real URLs", sourceItems.every(i => urlsIn(i.source).length > 0));
 // A repeated citation is not a second source. Count DOCUMENTS, not URLs:
 // counting URLs is exactly how two items shipped citing one page twice while

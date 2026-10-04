@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "genre": "anime",
+  "run_prefix": "a",
+  "timezone": "Europe/Berlin",
+  "require_all_known": false,
+  "minimum_sources": 3,
+  "require_non_metadata_source": true,
+  "allow_external_ids": true,
+  "pages_url": "https://lewdcifer666.github.io/wtf-anime-stremio/",
+  "blocked_source_hosts": [
+    "youtube.com",
+    "youtu.be",
+    "vimeo.com"
+  ]
+}
