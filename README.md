@@ -44,3 +44,14 @@ npm test              # full suite, production-state census last
 npm run validate      # fail-closed validation of data/ against the profile
 npm run build         # build site/ (manifest + catalog JSON)
 ```
+
+## Deterministic publication migration
+
+The reliability remake replaces direct discovery publication by the daily task
+with research-only JSON packets and trusted-main GitHub finalization. The
+existing 10:30 Europe/Berlin task and hourly Pages minute 47 are
+preserved. Publication remains disabled until the documented cutover; see
+[publication cutover](docs/publication-cutover.md).
+
+The private feedback-learning migration remains required subsequent work. This
+publication change neither activates personalization nor renews a snapshot.
