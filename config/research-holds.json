@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "holds": [
+    {
+      "daily_key": "anime:2026-10-10",
+      "research_commit": "27799694d9018e1ca81bdecb9602c554f82e289c",
+      "reason": "safety_denied"
+    }
+  ]
+}
