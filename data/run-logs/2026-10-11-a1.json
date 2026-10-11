@@ -1,0 +1,25 @@
+{
+  "run_id": "2026-10-11-a1",
+  "timestamp": "2026-10-11T08:34:22.133Z",
+  "searched": 1,
+  "accepted": 1,
+  "rejected": 0,
+  "duplicates": 0,
+  "accepted_items": [
+    {
+      "imdb_id": "tt12331342",
+      "type": "series",
+      "title": "Akudama Drive",
+      "match_score": 73
+    }
+  ],
+  "rejection_summary": [],
+  "publication": {
+    "schema_version": 1,
+    "daily_key": "anime:2026-10-11",
+    "packet_hash": "d04e36f9eb96c53cd4e33f88fce452a97ac02bc179b8b2e8fe178f7c5a003722",
+    "research_commit": "7b350238599bcb284e45cba119750fda3041eb61",
+    "evaluated_base": "0e04d16a933d534a46355a14221c9ef816d29661",
+    "policy_fingerprint": "35a419a34021830694a17bf0de2cdbf3790ea427934293c45e98828ebfb7004e"
+  }
+}
