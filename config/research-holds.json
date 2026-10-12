@@ -5,6 +5,11 @@
       "daily_key": "anime:2026-10-10",
       "research_commit": "27799694d9018e1ca81bdecb9602c554f82e289c",
       "reason": "safety_denied"
+    },
+    {
+      "daily_key": "anime:2026-10-12",
+      "research_commit": "a271951830fbcc250ed5ed0946d35e1633081128",
+      "reason": "safety_denied"
     }
   ]
 }
