@@ -55,3 +55,8 @@ preserved. Publication remains disabled until the documented cutover; see
 
 The private feedback-learning migration remains required subsequent work. This
 publication change neither activates personalization nor renews a snapshot.
+
+Unstaged research branches remain explicitly incomplete / awaiting_research_packet
+in persisted reconciliation bundles. A main-derived empty ref creates no run log,
+discoveries, final counts or publication token. Missing research is not a successful
+zero-result run. Existing reviewed safety holds remain failed / requires_user_action.
