@@ -50,7 +50,7 @@ npm run build         # build site/ (manifest + catalog JSON)
 The reliability remake replaces direct discovery publication by the daily task
 with research-only JSON packets and trusted-main GitHub finalization. The
 existing 10:30 Europe/Berlin task and hourly Pages minute 47 are
-preserved. Publication remains disabled until the documented cutover; see
+preserved. Publication is deployed and enabled; see
 [publication cutover](docs/publication-cutover.md).
 
 The private feedback-learning migration remains required subsequent work. This
