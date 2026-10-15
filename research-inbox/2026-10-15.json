@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "genre": "anime",
+  "research_date": "2026-10-15",
+  "candidates": [
+    {
+      "imdb_id": "tt27489241",
+      "type": "series",
+      "title": "Dead Mount Death Play",
+      "year": 2023,
+      "reason": "Across both 2023 cours (24 episodes), a powerful necromancer reincarnates as Polka in modern Tokyo and becomes entangled with assassins, crime syndicates, investigators and competing supernatural factions. The first cour slowly establishes concealed identities, murders, magical abilities and an expanding mystery; the second cour connects schemes, reveals motives and raises the stakes through underworld clashes and violent supernatural confrontations. Necromancy, ghosts, reincarnation and diverse abilities support dark urban-fantasy intrigue, suspense and tactical deception, though the series is an ensemble mystery rather than a steady combat or training-progression show. Important limitations: early pacing is slow, action is intermittent across the complete runtime, no structured training or leveling is central, the city setting is mostly familiar, comedic relief softens the darkness, animation quality varies and the later cour becomes crowded with intersecting viewpoints and unresolved threads. Horror is present as macabre imagery, not sustained fear; explicit gore is less pervasive than the criminal brutality.",
+      "sources": [
+        {
+          "url": "https://www.imdb.com/title/tt27489241/",
+          "purpose": "identity"
+        },
+        {
+          "url": "https://www.fernsehserien.de/dead-mount-death-play",
+          "purpose": "whole_runtime"
+        },
+        {
+          "url": "https://moviesr.net/p-dead-mount-death-play-netflix-series-review-embracing-the-dark-side-of-fantasy",
+          "purpose": "review"
+        },
+        {
+          "url": "https://www.globalstorytelling.it/2023/09/02/dead-mount-death-play-recensione-disponibile-su-crunchyroll/",
+          "purpose": "review"
+        },
+        {
+          "url": "https://hoshika.app/en/anime/62764/dead-mount-death-play-part-2",
+          "purpose": "structure"
+        },
+        {
+          "url": "https://shiyukichi.hatenablog.com/entry/2026/01/06/214829",
+          "purpose": "review"
+        }
+      ],
+      "dna": {
+        "mystery": 8,
+        "psychological_strategy": 5,
+        "cat_and_mouse": 6,
+        "deception": 7,
+        "plot_twists": 7,
+        "suspense": 7,
+        "progressive_revelation": 8,
+        "rule_discovery": 5,
+        "power_progression": 3,
+        "power_escalation": 6,
+        "training_growth": 1,
+        "ability_variety": 8,
+        "power_system_depth": 5,
+        "overpowered_protagonist": 7,
+        "supernatural": 9,
+        "horror": 4,
+        "gore": 5,
+        "brutality": 7,
+        "dark_tone": 7,
+        "creature_threat": 4,
+        "sci_fi_elements": 1,
+        "reality_anomaly": 4,
+        "weirdness": 7,
+        "strange_world": 4,
+        "worldbuilding": 7,
+        "magic_presence": 8,
+        "adventure": 3,
+        "action_density": 5,
+        "action_intensity": 7,
+        "visual_quality": 5,
+        "visual_uniqueness": 6,
+        "retro_visual_style": 1,
+        "wtf_comedy": 4,
+        "comedy": 5,
+        "drama_focus": 5,
+        "romance_focus": 1,
+        "sports_focus": 0,
+        "mecha_focus": 0,
+        "military_focus": 0,
+        "slice_of_life": 2,
+        "superhero": 2,
+        "pace_speed": 6
+      },
+      "dna_confidence": 0.78,
+      "dna_tags": [
+        "seinen",
+        "isekai"
+      ]
+    }
+  ],
+  "research_rejections": []
+}
