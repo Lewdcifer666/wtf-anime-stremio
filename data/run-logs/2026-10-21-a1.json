@@ -1,0 +1,25 @@
+{
+  "run_id": "2026-10-21-a1",
+  "timestamp": "2026-10-21T08:33:52.851Z",
+  "searched": 1,
+  "accepted": 1,
+  "rejected": 0,
+  "duplicates": 0,
+  "accepted_items": [
+    {
+      "imdb_id": "tt0856348",
+      "type": "series",
+      "title": "Basilisk: Kouga Ninpou Chou",
+      "match_score": 66
+    }
+  ],
+  "rejection_summary": [],
+  "publication": {
+    "schema_version": 1,
+    "daily_key": "anime:2026-10-21",
+    "packet_hash": "4e0c995c961d6faa69aa11bd94cbd300464fcd7349b9352dad7067192276de3a",
+    "research_commit": "3d7b25a44512741619846a5bd4c3f4c12c8048d2",
+    "evaluated_base": "b668053c5808166a389cc215ff5a88cb5ed14990",
+    "policy_fingerprint": "06996c829479a9ad7cf33a9662e6323e4bd88624243ebfd19bc397a6c77d5c81"
+  }
+}
