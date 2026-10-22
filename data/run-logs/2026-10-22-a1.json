@@ -1,0 +1,25 @@
+{
+  "run_id": "2026-10-22-a1",
+  "timestamp": "2026-10-22T08:36:00.243Z",
+  "searched": 1,
+  "accepted": 1,
+  "rejected": 0,
+  "duplicates": 0,
+  "accepted_items": [
+    {
+      "imdb_id": "tt6135388",
+      "type": "series",
+      "title": "Magical Girl Raising Project",
+      "match_score": 73
+    }
+  ],
+  "rejection_summary": [],
+  "publication": {
+    "schema_version": 1,
+    "daily_key": "anime:2026-10-22",
+    "packet_hash": "b2bc1c8bc3df094397036c8b13efa92dd7bbcfbb7c56747c2867f57baab6b766",
+    "research_commit": "91d8efe1c56400a5cdb59381829524e7b207b017",
+    "evaluated_base": "1fa1002a7e87a8179c269f75f826970a572c9b37",
+    "policy_fingerprint": "06996c829479a9ad7cf33a9662e6323e4bd88624243ebfd19bc397a6c77d5c81"
+  }
+}
