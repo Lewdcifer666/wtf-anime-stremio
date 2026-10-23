@@ -1,0 +1,25 @@
+{
+  "run_id": "2026-10-23-a1",
+  "timestamp": "2026-10-23T08:33:51.944Z",
+  "searched": 1,
+  "accepted": 1,
+  "rejected": 0,
+  "duplicates": 0,
+  "accepted_items": [
+    {
+      "imdb_id": "tt27206542",
+      "type": "series",
+      "title": "Undead Murder Farce",
+      "match_score": 76
+    }
+  ],
+  "rejection_summary": [],
+  "publication": {
+    "schema_version": 1,
+    "daily_key": "anime:2026-10-23",
+    "packet_hash": "60127a44e9a9145559c98903385923aab5d95a4efdca0bd1ba4413f17f5f0efb",
+    "research_commit": "b193b7f109d7a464b78349e7ec764ac29782cbaf",
+    "evaluated_base": "fb2c8afe7eb1c21d4b06ec0b33c5614360d44630",
+    "policy_fingerprint": "06996c829479a9ad7cf33a9662e6323e4bd88624243ebfd19bc397a6c77d5c81"
+  }
+}
