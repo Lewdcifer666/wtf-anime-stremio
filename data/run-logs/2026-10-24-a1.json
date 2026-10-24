@@ -1,0 +1,25 @@
+{
+  "run_id": "2026-10-24-a1",
+  "timestamp": "2026-10-24T08:32:20.853Z",
+  "searched": 1,
+  "accepted": 1,
+  "rejected": 0,
+  "duplicates": 0,
+  "accepted_items": [
+    {
+      "imdb_id": "tt4958610",
+      "type": "series",
+      "title": "Rokka: Braves of the Six Flowers",
+      "match_score": 70
+    }
+  ],
+  "rejection_summary": [],
+  "publication": {
+    "schema_version": 1,
+    "daily_key": "anime:2026-10-24",
+    "packet_hash": "2524c4662fb12e74b8c7073fce607caecf4f54b5d4b208bf2cf5369efa997190",
+    "research_commit": "b0b4502001ae3547de09d84564d22eb47c8acc16",
+    "evaluated_base": "104121910a58bece77459b0080136417ed6b014f",
+    "policy_fingerprint": "06996c829479a9ad7cf33a9662e6323e4bd88624243ebfd19bc397a6c77d5c81"
+  }
+}
