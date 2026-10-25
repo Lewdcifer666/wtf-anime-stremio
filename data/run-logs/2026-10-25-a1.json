@@ -1,0 +1,25 @@
+{
+  "run_id": "2026-10-25-a1",
+  "timestamp": "2026-10-25T09:28:35.365Z",
+  "searched": 1,
+  "accepted": 1,
+  "rejected": 0,
+  "duplicates": 0,
+  "accepted_items": [
+    {
+      "imdb_id": "tt30089363",
+      "type": "series",
+      "title": "The Witch and the Beast",
+      "match_score": 74
+    }
+  ],
+  "rejection_summary": [],
+  "publication": {
+    "schema_version": 1,
+    "daily_key": "anime:2026-10-25",
+    "packet_hash": "52b1956166508267bb7a94ea1b6a976dbff32a634a9d62f3e51d90b1476ef8a2",
+    "research_commit": "6c1f58c836ffb2c08661c32c67a1ab920a0aed9d",
+    "evaluated_base": "1f732de312a26d6e4b1fc1ea33306248b5ec188e",
+    "policy_fingerprint": "06996c829479a9ad7cf33a9662e6323e4bd88624243ebfd19bc397a6c77d5c81"
+  }
+}
