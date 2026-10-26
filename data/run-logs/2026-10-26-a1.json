@@ -1,0 +1,25 @@
+{
+  "run_id": "2026-10-26-a1",
+  "timestamp": "2026-10-26T09:33:36.363Z",
+  "searched": 1,
+  "accepted": 1,
+  "rejected": 0,
+  "duplicates": 0,
+  "accepted_items": [
+    {
+      "imdb_id": "tt1992935",
+      "type": "series",
+      "title": "Mononoke",
+      "match_score": 71
+    }
+  ],
+  "rejection_summary": [],
+  "publication": {
+    "schema_version": 1,
+    "daily_key": "anime:2026-10-26",
+    "packet_hash": "c5eb212c7cca648ced15240c1d947d3a2ac22ebe80a457bda22aef36d0142333",
+    "research_commit": "9d2433cdede9662f0e2c5f2260e1776e4ab9883f",
+    "evaluated_base": "a66458c1afd1fef94359ca04ddf487dd92ea04e1",
+    "policy_fingerprint": "06996c829479a9ad7cf33a9662e6323e4bd88624243ebfd19bc397a6c77d5c81"
+  }
+}
