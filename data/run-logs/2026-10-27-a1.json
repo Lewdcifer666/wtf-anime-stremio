@@ -1,0 +1,25 @@
+{
+  "run_id": "2026-10-27-a1",
+  "timestamp": "2026-10-27T09:29:21.389Z",
+  "searched": 1,
+  "accepted": 1,
+  "rejected": 0,
+  "duplicates": 0,
+  "accepted_items": [
+    {
+      "imdb_id": "tt11988478",
+      "type": "series",
+      "title": "Gleipnir",
+      "match_score": 73
+    }
+  ],
+  "rejection_summary": [],
+  "publication": {
+    "schema_version": 1,
+    "daily_key": "anime:2026-10-27",
+    "packet_hash": "2a5aadc71dff746d955753c1b2b3cecb7b5762b76070caaf7a5c2cab5a59990e",
+    "research_commit": "40f9492e1427fec851da7cd2ad9ecd1630d213db",
+    "evaluated_base": "552285a9176515695c42697d63a9844015503224",
+    "policy_fingerprint": "06996c829479a9ad7cf33a9662e6323e4bd88624243ebfd19bc397a6c77d5c81"
+  }
+}
