@@ -1,0 +1,25 @@
+{
+  "run_id": "2026-11-08-a1",
+  "timestamp": "2026-11-08T09:44:36.055Z",
+  "searched": 1,
+  "accepted": 1,
+  "rejected": 0,
+  "duplicates": 0,
+  "accepted_items": [
+    {
+      "imdb_id": "tt2457282",
+      "type": "movie",
+      "title": "Puella Magi Madoka Magica the Movie Part III: The Rebellion Story",
+      "match_score": 84
+    }
+  ],
+  "rejection_summary": [],
+  "publication": {
+    "schema_version": 1,
+    "daily_key": "anime:2026-11-08",
+    "packet_hash": "b1eeb7dbea1b387646a53b4565c02c8a03f9b6a8f1918993db82d8dfb93e13ae",
+    "research_commit": "838c8f38333efcd369472b3786687109f0025645",
+    "evaluated_base": "d5414935c3e5e0d1bc76515bce4d1039f9c53336",
+    "policy_fingerprint": "1ca200265721c462eb7f71bd08b556134d1b5323904d278f2822942990ee795f"
+  }
+}
