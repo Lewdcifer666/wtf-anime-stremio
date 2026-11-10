@@ -1,0 +1,35 @@
+{
+  "run_id": "2026-11-10-a1",
+  "timestamp": "2026-11-10T09:40:01.505Z",
+  "searched": 2,
+  "accepted": 0,
+  "rejected": 2,
+  "duplicates": 0,
+  "accepted_items": [],
+  "rejection_summary": [
+    {
+      "title": "Escaflowne: The Movie",
+      "type": "movie",
+      "year": 2000,
+      "imdb_id": "tt0270933",
+      "reason": "Public IMDb identity and whole-film accounts confirm dark fantasy, striking art and violent adventure, but substantial romance/drama and piloted armor framing, plus mixed reviews of compressed storytelling, leave its profile fit uncertain. Evidence does not support reliable values across all required weighted DNA dimensions; not promoted as a candidate. Sources consulted: https://www.imdb.com/title/tt0270933/ ; https://www.rottentomatoes.com/m/escaflowne_the_movie ; https://www.metacritic.com/movie/escaflowne-the-movie/ ; https://www.animepro.de/anima/db/escaflowne-the-movie",
+      "category": "rejected"
+    },
+    {
+      "title": "Kite",
+      "type": "series",
+      "year": 1998,
+      "imdb_id": "tt0246734",
+      "reason": "IMDb identifies a short adult OVA/miniseries about an orphaned contract killer; public plot documentation describes graphic violence and sexual exploitation, but little corroborated supernatural, progression or sustained mystery-system depth. Whole-work evidence is insufficient to confidently characterize the required 42 DNA dimensions, so it is not a candidate. Sources consulted: https://www.imdb.com/title/tt0246734/ ; https://en.wikipedia.org/wiki/Kite_(1998_film)",
+      "category": "rejected"
+    }
+  ],
+  "publication": {
+    "schema_version": 1,
+    "daily_key": "anime:2026-11-10",
+    "packet_hash": "99b6b4201468d0c3b5f6a101775a2e602ce77726039224b7dd387e2c45262ddc",
+    "research_commit": "a7e1b98f77ea4d8104a867b10b066f859aa84885",
+    "evaluated_base": "44d5d395021460cbfa6619217226016c6afa358f",
+    "policy_fingerprint": "1ca200265721c462eb7f71bd08b556134d1b5323904d278f2822942990ee795f"
+  }
+}
