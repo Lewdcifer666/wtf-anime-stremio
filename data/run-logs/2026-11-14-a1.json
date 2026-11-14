@@ -1,0 +1,33 @@
+{
+  "run_id": "2026-11-14-a1",
+  "timestamp": "2026-11-14T09:42:29.461Z",
+  "searched": 2,
+  "accepted": 1,
+  "rejected": 1,
+  "duplicates": 0,
+  "accepted_items": [
+    {
+      "imdb_id": "tt0094625",
+      "type": "movie",
+      "title": "Akira",
+      "match_score": 82
+    }
+  ],
+  "rejection_summary": [
+    {
+      "title": "Rick and Morty: The Anime",
+      "type": "series",
+      "year": 2024,
+      "reason": "The complete first season has mixed critical reception, with critics citing inconsistent writing and uneven animation. Although multiverse mysteries and unusual visuals are present, whole-season evidence does not support a confident fit to the baseline's core psychological strategy, progression and action dimensions; not submitted as a candidate.",
+      "category": "rejected"
+    }
+  ],
+  "publication": {
+    "schema_version": 1,
+    "daily_key": "anime:2026-11-14",
+    "packet_hash": "240dd4ad7b319ca7b25d71ca2747f6435dc5653d06b46f96a1b051bc9e6a0522",
+    "research_commit": "2e3735580fb496e887ca4d137a8dc30f893617a3",
+    "evaluated_base": "b08e54d541f1536d2235c9b96f76655324cc51cc",
+    "policy_fingerprint": "1ca200265721c462eb7f71bd08b556134d1b5323904d278f2822942990ee795f"
+  }
+}
