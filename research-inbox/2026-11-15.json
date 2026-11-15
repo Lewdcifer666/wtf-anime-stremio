@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "genre": "anime",
+  "research_date": "2026-11-15",
+  "candidates": [],
+  "research_rejections": [
+    {
+      "title": "Fullmetal Alchemist",
+      "type": "series",
+      "year": 2003,
+      "imdb_id": "tt0421357",
+      "reason": "Deferred, not a taste rejection: IMDb and Rotten Tomatoes establish the 2003 51-episode adaptation and its dark fantasy/alchemy premise, and reviews describe meaningful action and emotional themes. However, available independently consulted whole-series criticism does not support sufficiently confident coverage of the complete 42-dimensional DNA record, especially the required guardrail dimensions and action density across the full run. Do not assign unsupported values or confuse this adaptation with Brotherhood."
+    },
+    {
+      "title": "Dragon Ball Super",
+      "type": "series",
+      "year": 2015,
+      "reason": "Not selected today: the 2015 television series offers escalating power and tournament combat, but independently corroborated full-series evidence was too uneven to establish reliable 42-dimensional DNA coverage. Public discussion notes inconsistent animation and arc quality; the discovered lead alone cannot establish title-specific quality or baseline eligibility."
+    }
+  ]
+}
