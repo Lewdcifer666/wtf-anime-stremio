@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "genre": "anime",
+  "research_date": "2026-11-23",
+  "candidates": [],
+  "research_rejections": [
+    {
+      "title": "Kite",
+      "type": "movie",
+      "year": 1998,
+      "imdb_id": "tt0246734",
+      "reason": "Not selected: the original two-part OVA was also edited into film editions, creating cut-dependent runtime and classification uncertainty. Independent coverage confirms distinctive animation, violent assassin action and grim subject matter, but not sufficiently reliable full-runtime evidence for the 42-dimensional profile, especially psychological strategy, power-system depth and all required guardrail dimensions. The prominent sexual-violence material is a factual content concern, not a new profile exclusion. Sources consulted: https://en.wikipedia.org/wiki/Kite_(1998_film), https://www.imdb.com/de/title/tt0246734/faq/, https://animecultivated.com/kite-anime-1998-review/."
+    },
+    {
+      "title": "Rick and Morty: The Anime",
+      "type": "series",
+      "year": 2024,
+      "reason": "Not selected: the ten-episode season has mixed reviews, including criticism of disjointed storytelling and inconsistent animation. The science-fiction premise alone is not sufficient to establish a strong baseline match, and available full-season evidence does not support a confident 42-dimension DNA record. Sources consulted: https://www.rottentomatoes.com/tv/rick_and_morty_the_anime, https://www.metacritic.com/tv/rick-and-morty-the-anime/, https://en.wikipedia.org/wiki/Rick_and_Morty:_The_Anime."
+    }
+  ]
+}
