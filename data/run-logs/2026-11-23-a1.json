@@ -1,0 +1,34 @@
+{
+  "run_id": "2026-11-23-a1",
+  "timestamp": "2026-11-23T09:39:00.078Z",
+  "searched": 2,
+  "accepted": 0,
+  "rejected": 2,
+  "duplicates": 0,
+  "accepted_items": [],
+  "rejection_summary": [
+    {
+      "title": "Kite",
+      "type": "movie",
+      "year": 1998,
+      "imdb_id": "tt0246734",
+      "reason": "Not selected: the original two-part OVA was also edited into film editions, creating cut-dependent runtime and classification uncertainty. Independent coverage confirms distinctive animation, violent assassin action and grim subject matter, but not sufficiently reliable full-runtime evidence for the 42-dimensional profile, especially psychological strategy, power-system depth and all required guardrail dimensions. The prominent sexual-violence material is a factual content concern, not a new profile exclusion. Sources consulted: https://en.wikipedia.org/wiki/Kite_(1998_film), https://www.imdb.com/de/title/tt0246734/faq/, https://animecultivated.com/kite-anime-1998-review/.",
+      "category": "rejected"
+    },
+    {
+      "title": "Rick and Morty: The Anime",
+      "type": "series",
+      "year": 2024,
+      "reason": "Not selected: the ten-episode season has mixed reviews, including criticism of disjointed storytelling and inconsistent animation. The science-fiction premise alone is not sufficient to establish a strong baseline match, and available full-season evidence does not support a confident 42-dimension DNA record. Sources consulted: https://www.rottentomatoes.com/tv/rick_and_morty_the_anime, https://www.metacritic.com/tv/rick-and-morty-the-anime/, https://en.wikipedia.org/wiki/Rick_and_Morty:_The_Anime.",
+      "category": "rejected"
+    }
+  ],
+  "publication": {
+    "schema_version": 1,
+    "daily_key": "anime:2026-11-23",
+    "packet_hash": "cf2ee59d283f2efc3ef6c2edd98751f1adba12a96c3991c8515c34bb891bb522",
+    "research_commit": "1d74eea294a9dda1d4f2847b7ca77d2b1e86596e",
+    "evaluated_base": "abf1a8423f2ef5e1d45b7988e7b0f4a16d754290",
+    "policy_fingerprint": "1ca200265721c462eb7f71bd08b556134d1b5323904d278f2822942990ee795f"
+  }
+}
